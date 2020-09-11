@@ -13,4 +13,5 @@ class ApplicationController < ActionController::Base
   def foo
     'bar'
   end
+  # Comment 1
 end
