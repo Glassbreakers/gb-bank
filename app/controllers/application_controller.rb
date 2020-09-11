@@ -9,4 +9,8 @@ class ApplicationController < ActionController::Base
   def append_view_paths
     append_view_path "app/views/application"
   end
+
+  def foo
+    'bar'
+  end
 end
